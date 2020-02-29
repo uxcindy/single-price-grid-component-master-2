@@ -1,0 +1,138 @@
+/* Color Variables */
+
+:root {
+  --Cyan: hsl(179, 62%, 43%);
+  --Cyan-opacity: hsla(179, 62%, 43%, 0.8);
+  --Light-Cyan: #5acdce;
+  --Bright-Yellow: hsl(71, 73%, 54%);
+  --Light-Gray: hsl(204, 43%, 93%);
+  --Grayish-Blue: hsl(218, 22%, 67%);
+  --White: #fff;
+}
+
+body {
+background-color: #F0F0F0;
+font-family: "Karla";
+font-size: 1rem;
+font-weight: 400;
+color: var(--Grayish-Blue);
+}
+
+h2 {
+  color: var(--Cyan);
+}
+
+h2, h4 {
+  font-weight: 700;
+}
+
+ul {
+    font-size: small;
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Entire container */
+#community {
+  background-color: White;
+  border-radius: 1%;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin: 8% 25% 0;
+}
+
+/* Community section  */
+.community {
+  padding: 0 6%;
+}
+
+.header-community {
+  padding: 5% 0 2% 0;
+}
+
+.header-30day {
+  color: var(--Bright-Yellow);
+  padding-bottom: 2%;
+}
+
+/* Month Section */
+
+.per-month {
+  color: var(--Light-Cyan);
+  font-size: 1rem;
+}
+
+.monthly {
+  background-color: var(--Cyan);
+  border-radius: 0 0 0 1%;
+  color: White;
+  padding: 5% 0 7% 6%;
+}
+
+.monthly-text {
+  padding: 5% 0;
+}
+
+/* Button */
+.sign-up-btn{
+  background-color: var(--Bright-Yellow);
+  border: none;
+  color: White;
+  padding: 10px 85px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 700;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  white-space: nowrap;
+}
+
+.sign-up-btn:hover {
+  background-color: var(--Grayish-Blue);
+  color: white;
+}
+
+/* Tutorials Section */
+
+.why-us-header {
+  font-weight: 700;
+}
+
+.tutorials {
+  background-color: var(--Cyan-opacity);
+  border-radius: 0 0 1% 0;
+  color: white;
+  padding: 5% 0 5% 7%;
+}
+
+.tutorial-list {
+  padding-top: 7%;
+  padding-bottom: 5%;
+}
+
+/* Attribution Section */
+.attribution {
+  padding-top: 5%;
+}
+
+/* Media Query */
+@media (max-width: 990px) {
+
+  .community {
+    padding: 5% 6% 10% 6%;
+    line-height: 2;
+  }
+
+  .monthly {
+    padding: 5% 6% 10% 6%;
+  }
+
+  .tutorials {
+    padding: 5% 6% 10% 6%;
+  }
+
+  .sign-up-btn{
+    width: 95%
+  }
+
+}
